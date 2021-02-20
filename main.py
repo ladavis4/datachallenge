@@ -9,7 +9,7 @@ df = pd.read_csv(path, encoding='cp1252')
 
 ages = df['Age']
 kids = df['Kids']
-plt.hist(ages, bins = 5)
+plt.hist(ages, bins=20)
 plt.show()
 
 
